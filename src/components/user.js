@@ -1,5 +1,4 @@
 'use client'
-import "bootstrap/dist/css/bootstrap.css";
 import "./styles/form.css";
 import { useState } from "react";
 

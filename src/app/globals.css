@@ -105,3 +105,24 @@ a {
     color-scheme: dark;
   }
 }
+
+.navbar{
+  background-color: #FBF8F8;
+}
+
+.jomhuria-regular {
+  font-family: "Jomhuria", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* globals.css */
+@font-face {
+  font-family: 'Jomhuria';
+  src: url('/fonts/Jomhuria.woff2') format('woff2'),
+       url('/fonts/Jomhuria.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Outros estilos globais */

@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.css";
 import "./styles/form.css";
 
 export default function Password() {
