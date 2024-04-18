@@ -19,5 +19,7 @@
 
 /* createpaste.css */
 .button-add-paste p {
-    font-size: x-large;
+    font-size: xx-large;
+    margin: 1vh;
+    width: 100%;
 }

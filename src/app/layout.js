@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
         </head>
         <body className={inter.className}>
           {children}
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-pGPvSRWSxBhCD6V9fFjXuHDazfGmQyy6V5adHa2hpT03wCr/2g8g6SB9uTNoWS3T" crossorigin="anonymous"></script>
         </body>
       </html>
     </>
