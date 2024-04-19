@@ -1,5 +1,5 @@
 // pages/index.js
-import "bootstrap/dist/css/bootstrap.css";
+import Image from "next/image";
 
 export default function MyNavbar() {
     return (
@@ -7,7 +7,7 @@ export default function MyNavbar() {
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <a href="/">
-                        <img src="https://www.sp.senai.br/images/senai.svg" alt="a" width={150} height={50} className="nav-brand" />
+                        <Image src="https://www.sp.senai.br/images/senai.svg" alt="a" width={150} height={50} className="nav-brand" />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
