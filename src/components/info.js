@@ -20,7 +20,7 @@ export default function Info() {
                     </div>
                     <div className="mt-5">
                         <h5>Observaçoes: </h5>
-                        <h5>Ocorrencias: "bateu com o pau na mesa"</h5>
+                        <h5>Ocorrencias: ""</h5>
                     </div>
                 </div>
             </div>
