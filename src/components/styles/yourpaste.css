@@ -1,29 +1,32 @@
 .yourpastes {
-    background-color: #FBF8F8; /* Alterando a cor de fundo */
-    height: 62vh; /* Aumentando a altura para 30vh */                                                                                                   
+    background-color: #FBF8F8;
+    height: 62vh;
+    overflow-y: inherit; /* Adicionando barra de rolagem vertical */
 }
 
-.div-input{
+.div-input {
     height: 12vh;
-    color: wheat;
 }
 
-.input-wrapper{
+.input-wrapper {
     height: 8vh;
     font-size: x-large;
     width: 80%;
     background-color: white;
     border: solid red;
+    display: flex;
+    align-items: center;
+    padding: 0 10px; /* Adicionando espaçamento interno */
 }
 
-.search-img{
+.search-img {
     margin-right: 2%;
 }
 
 input {
-    background-color: transparent;    
+    background-color: transparent;
     height: 100%;
-    color: #212529;   
+    color: #212529;
     outline: none;
     border: none;
 }
@@ -32,16 +35,21 @@ input::placeholder {
     color: #212529;
 }
 
-.div-class{
+.div-class {
+    display: flex;
     gap: 30px;
-    flex-wrap: wrap; /* Enable flex wrap */
+    flex-wrap: wrap;
 }
 
-.div-class{
-    
-}
-
-.class{
+.class {
+    background-color: #fcfcfc;
+    color: #181819;
     border: #212529 solid 3px;
-    height: 20vh;
+    height: 20vh; /* Altura fixa */
+    width: calc(35vh - 20px); /* Definindo largura das classes */
+    margin-bottom: 20px; /* Adicionando espaçamento entre as classes */
+    box-sizing: border-box; /* Incluindo padding e borda na largura */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
