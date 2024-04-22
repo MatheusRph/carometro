@@ -3,6 +3,45 @@
     height: 62vh; /* Aumentando a altura para 30vh */                                                                                                   
 }
 
+.div-input{
+    height: 12vh;
+    color: wheat;
+}
+
+.input-wrapper{
+    height: 8vh;
+    font-size: x-large;
+    width: 80%;
+    background-color: white;
+    border: solid red;
+}
+
+.search-img{
+    margin-right: 2%;
+}
+
+input {
+    background-color: transparent;    
+    height: 100%;
+    color: #212529;   
+    outline: none;
+    border: none;
+}
+
 input::placeholder {
-    color: black;
+    color: #212529;
+}
+
+.div-class{
+    gap: 30px;
+    flex-wrap: wrap; /* Enable flex wrap */
+}
+
+.div-class{
+    
+}
+
+.class{
+    border: #212529 solid 3px;
+    height: 20vh;
 }
